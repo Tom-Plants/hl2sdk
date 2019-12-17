@@ -30,8 +30,8 @@ DO_CC += -o $@ -c $<
 #####################################################################
 
 PLUGIN_OBJS = \
-	$(PLUGIN_OBJ_DIR)/serverplugin_bot.o \
 	$(PLUGIN_OBJ_DIR)/serverplugin_empty.o \
+	#$(PLUGIN_OBJ_DIR)/serverplugin_bot.o \
 
 TIER0_OBJS = \
 	$(TIER0_OBJ_DIR)/memoverride.o \
